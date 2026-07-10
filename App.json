@@ -1,7 +1,7 @@
 {
   "expo": {
-    "name": "bridge-",
-    "slug": "snack-f4a34b42-ef9a-46e1-85a2-6247e79d4062",
+    "name": "Bridge A Travessia",
+    "slug": "snack-587a865b-b58b-4e62-8448-dfc78a8b62f9",
     "version": "1.0.0",
     "orientation": "portrait",
     "icon": "./assets/icon.png",
@@ -10,24 +10,20 @@
     "splash": {
       "image": "./assets/splash-icon.png",
       "resizeMode": "contain",
-      "backgroundColor": "#ffffff"
+      "backgroundColor": "#F5F0E8"
     },
     "ios": {
-      "supportsTablet": true
+      "supportsTablet": true,
+      "bundleIdentifier": "com.bridge.atravessia"
     },
     "android": {
+      "package": "com.bridge.atravessia",
+      "versionCode": 1,
       "adaptiveIcon": {
         "foregroundImage": "./assets/adaptive-icon.png",
-        "backgroundColor": "#ffffff"
+        "backgroundColor": "#F5F0E8"
       },
-      "edgeToEdgeEnabled": true
-    },
-    "web": {
-      "favicon": "./assets/favicon.png"
-    },
-    "description": "A Travessia"
-  }
-}bled": false
+      "edgeToEdgeEnabled": false
     },
     "web": {
       "favicon": "./assets/favicon.png"
