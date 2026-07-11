@@ -1,0 +1,41 @@
+{
+  "expo": {
+    "name": "Bridge A Travessia",
+    "slug": "bridge-a-travessia-app",
+    "version": "1.0.0",
+    "orientation": "portrait",
+    "icon": "./assets/icon.png",
+    "userInterfaceStyle": "light",
+    "newArchEnabled": false,
+    "splash": {
+      "image": "./assets/splash-icon.png",
+      "resizeMode": "contain",
+      "backgroundColor": "#F5F0E8"
+    },
+    "ios": {
+      "supportsTablet": true,
+      "bundleIdentifier": "com.bridge.atravessia"
+    },
+    "android": {
+      "package": "com.bridge.atravessia",
+      "versionCode": 1,
+      "adaptiveIcon": {
+        "foregroundImage": "./assets/adaptive-icon.png",
+        "backgroundColor": "#F5F0E8"
+      },
+      "edgeToEdgeEnabled": false
+    },
+    "web": {
+      "favicon": "./assets/favicon.png"
+    },
+    "plugins": [
+      "expo-notifications"
+    ],
+    "description": "A Travessia",
+    "extra": {
+      "eas": {
+        "projectId": "3727c9d5-7ef9-41d1-b139-a8eaa56102ad"
+      }
+    }
+  }
+}
